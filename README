@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=34
+
+This script allows you to have a SQLWorksheet-type interface to Oracle. Similar to Jeremy Collins&#039 script (vimtip #33), and actually the idea was based on his. It, too, requires that TCL is built in to Vim, and also has a few other requirements: links and a version of SQL*Plus that supports HTML output. 
+
+     The usage is quite a bit different, though. 
+
+     Start by simply editing a file in vim, and move your cursor to a SQL statement. You can visually select it or not, it doesn&#039t matter as long as there is a blank line before and after. Then, based on these keybindings, hit <C-k> and your statement will be executed, formatted, and popped up in a split     window below. To run another statement, move to another one and hit <C-k> again. It will replace the bottom window with the new results. 
+
+More detail (and latest versions) at http://oravim.dashf.com/
